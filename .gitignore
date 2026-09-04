@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Xcode / iOS
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserdatad/
+DerivedData/
+.build/
+*.xcuserstate
+
+# Secrets & Local Config
+.env*.local
+*.pem

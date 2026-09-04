@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --color-canvas: #f2f2f7;
+  --color-ink: #14171a;
+  --color-muted: #6b6e73;
+  --color-surface: #ffffff;
+  --color-apple-blue: #007aff;
+  --color-apple-blue-hover: #0066d6;
+  --color-lime: #bae861;
+  --color-accent: #fa6b38;
+  --color-danger: #ea4335;
+}
+
+body {
+  background-color: #000000;
+  color: #14171a;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* iOS Grouped Canvas Background */
+.ios-canvas {
+  background-color: #f2f2f7;
+  min-height: 100vh;
+}
+
+/* iOS White Card with soft Apple Shadow */
+.ios-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.ios-card-subtle {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* iOS Floating Tab Bar */
+.ios-tab-bar {
+  background: rgba(22, 24, 28, 0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Cinema screen glow */
+.screen-curve {
+  position: relative;
+  border-top: 3px solid rgba(186, 232, 97, 0.8);
+  border-radius: 50% 50% 0 0 / 20px 20px 0 0;
+  box-shadow: 0 -12px 32px -4px rgba(186, 232, 97, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9999px;
+}
